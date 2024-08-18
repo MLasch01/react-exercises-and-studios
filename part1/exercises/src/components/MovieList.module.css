@@ -1,6 +1,12 @@
 .movieText {
    color: rgb(44, 27, 121);
    font-size: 1.5vw;
+   text-align: left;
+   background-color: aqua;
+   border-top-style: double;
+   border-bottom-style: double;
+   border-left-style: double;
+   border-right-style: double;
 }
 
 .movieHeading {
