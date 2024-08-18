@@ -1,3 +1,5 @@
+import classes from './BookList.module.css';
+
 export default function BookList() {
    let pageTitle = "Books to Read Next";
    let book1 = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiDfJNg_tfd2J0R6MkWOWhxPWgaps6QFf-9-j-9dJNbh5ImGbcPdpmhi3bU2EBtuENvBOjrMld7__yUG2dFwhDBEUsCD7s38gV_iA44ddlGlI2RvmjqUjTqI2SiiHxNSLn9ueze4MJOTm257DGomyxIRzuZ260YTpO7MsWREv1Scc0tTpLjfQ5bVzGg20/s320/GC3fp42akAAMKyl.jpg";
@@ -13,3 +15,13 @@ export default function BookList() {
       </div>      
    );
 }
+
+
+
+{/* <div>
+<h3 className = {classes.choresHeading}>Chores to Finish</h3>
+<ol>
+   <li className={classes.choresText}>{chores[0]}</li>
+   <li className={classes.choresText}>{chores[1]}</li>
+</ol>
+</div> */}
