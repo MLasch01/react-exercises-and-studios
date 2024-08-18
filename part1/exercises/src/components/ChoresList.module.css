@@ -3,9 +3,11 @@
    font-family:'Times New Roman';
    font-size: 2vw;
    font-style: italic;
+   text-align: left;
 }
 
 .choresHeading {
    color: black;
    text-decoration: underline;
+   text-align: left;
 }
